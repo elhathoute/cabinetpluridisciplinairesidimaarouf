@@ -4,93 +4,25 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="google-site-verification" content="OTZMxDEYN3rLruqrUsa4N8qNmL8rRw4poYRfujxCKPs" />
-<!-- Title and Meta Description for SEO -->
     <title>Orthophonie et Psychomotricité à Sidi Maârouf</title>
     <meta name="description"
           content="Découvrez nos services d'orthophonie et de psychomotricité à Sidi Maârouf. Nous offrons des soins adaptés à vos besoins, contactez-nous pour plus d'informations.">
     <meta name="keywords"
           content="Orthophonie, Psychomotricité, Sidi Maârouf, Casablanca, Thérapie, Bien-être, Rééducation, Santé, Consultation">
-
-    <!-- Open Graph (for social media sharing) -->
     <meta property="og:title" content="Orthophonie et Psychomotricité à Sidi Maârouf">
     <meta property="og:description"
           content="Des soins d'orthophonie et de psychomotricité adaptés à tous. Disponible à Sidi Maârouf, Casablanca. Contactez-nous dès maintenant pour plus d'informations.">
     <meta property="og:image" content="assets/img/logo.png">
     <meta property="og:url" content="https://cabinetpluridisciplinairesidimaarouf.ma/">
     <meta property="og:type" content="website">
-
-    <!-- Twitter Card data -->
     <meta name="twitter:title" content="Orthophonie et Psychomotricité à Sidi Maârouf">
     <meta name="twitter:description"
           content="Nous proposons des services d'orthophonie et de psychomotricité à Sidi Maârouf. Pour plus d'infos, contactez-nous maintenant.">
     <meta name="twitter:image" content="assets/img/logo.png">
     <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Favicon and Apple Touch Icon -->
-<link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
-<link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <?php require_once './header/header.php'; ?>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet">
-    <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BNM0JQZSP2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BNM0JQZSP2');
-</script>
-<!-- Hotjar Tracking Code for https://cabinetpluridisciplinairesidimaarouf.ma/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:5316191,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-    <!-- CSS Stylesheets -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <!-- Additional SEO Improvements -->
-    <!-- Structured Data for rich snippets -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "MedicalBusiness",
-            "name": "Orthophonie et Psychomotricité à Sidi Maârouf",
-            "description": "Spécialistes en orthophonie et psychomotricité à Sidi Maârouf, offrant des services professionnels adaptés à chaque patient.",
-            "url": "https://cabinetpluridisciplinairesidimaarouf.ma/",
-            "logo": "assets/img/logo.png",
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+212522335556",
-                "contactType": "Customer Service",
-                "areaServed": "MA",
-                "availableLanguage": "French"
-            },
-            "sameAs": [
-                "https://www.facebook.com/votre-page",
-                "https://www.instagram.com/votre-page",
-                "https://www.linkedin.com/votre-page"
-            ]
-        }
-    </script>
 </head>
 
 
@@ -120,16 +52,16 @@
             </a>
 <nav id="navmenu" class="navmenu" aria-label="Main Navigation">
     <ul>
-        <li><a href="#hero" class="active" title="Accueil - Bienvenue sur notre site">Accueil@</a></li>
-        <li><a href="#about" title="À propos de notre entreprise">À propos</a></li>
-        <li><a href="#services" title="Nos services professionnels">Services</a></li>
-        <li><a href="#Orthophoniste" title="Nos services en orthophonie">Orthophonie</a></li>
-        <li><a href="#Psychomotricité" title="Nos services en psychomotricité">Psychomotricité</a></li>
-        <li><a href="#doctors" title="Rencontrez nos spécialistes">Nos Spécialistes</a></li>
-        <li><a href="#Testimonials" title="Lire les témoignages de nos patients">Témoignages</a></li>
-        <li><a href="#gallery" title="Découvrez notre espace">Notre Espace</a></li>
-        <li><a href="#FAQ" title="Foire aux questions">FAQ</a></li>
-        <li><a href="#contact" title="Contactez-nous pour plus d'informations">Contact</a></li>
+        <li><a href="index.php" class="active" title="Accueil - Bienvenue sur notre site">Accueil</a></li>
+        <li><a href="about.php" title="À propos de notre entreprise">À propos</a></li>
+        <li><a href="services.php" title="Nos services professionnels">Services</a></li>
+        <li><a href="orthophoniste.php" title="Nos services en orthophonie">Orthophonie</a></li>
+        <li><a href="psychomotricite.php" title="Nos services en psychomotricité">Psychomotricité</a></li>
+        <li><a href="doctors.php" title="Rencontrez nos spécialistes">Nos Spécialistes</a></li>
+        <li><a href="testimonials.php" title="Lire les témoignages de nos patients">Témoignages</a></li>
+        <li><a href="gallery.php" title="Découvrez notre espace">Notre Espace</a></li>
+        <li><a href="faq.php" title="Foire aux questions">FAQ</a></li>
+        <li><a href="contact.php" title="Contactez-nous pour plus d'informations">Contact</a></li>
     </ul>
     <i class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Menu mobile"></i>
 </nav>
@@ -1047,17 +979,7 @@
 <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-<!-- Main JS File -->
-<script src="assets/js/main.js"></script>
+<?php require_once './footer/footer.php'?>
 
 </body>
 
