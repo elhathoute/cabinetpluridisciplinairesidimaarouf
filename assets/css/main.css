@@ -1,15 +1,3 @@
-#/**
-* Template Name: Medicio
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -90,8 +78,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
-  font-family: var(--heading-font);
+  color: var(--heading-color) !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
 }
 
 /* Pulsating Play Button
@@ -839,17 +828,6 @@ section,
   }
 }
 
-.hero h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  .hero h2 {
-    font-size: 30px;
-  }
-}
 
 .hero .btn-get-started {
   font-weight: 400;
